@@ -19,3 +19,5 @@ Route::get('/contacts', [ContactController::class, 'getContacts']);
 Route::get('/departments', [ContactController::class, 'getDepartments']);
 Route::get('/companies', [ContactController::class, 'getCompanies']);
 Route::get('/revenueSum', [ContactController::class, 'getRevenueSum']);
+Route::post('/post-geolocation', [ContactController::class, 'postGeolocation']);
+Route::get('/get-geolocation', [ContactController::class, 'getGeolocation']);
